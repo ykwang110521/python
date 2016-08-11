@@ -2,8 +2,7 @@
 # _*_ coding: UTF-8 _*_
 import MySQLdb
 #打开数据库连接
-#db = MySQLdb.connect("localhost","homestead","secret","homestead") #连接本地homestead
-db = MySQLdb.connect("60.12.225.137","dscs","ycp4nadIu&fcymLx4bnr","oppo_cn") #连接线上数据库从库
+db = MySQLdb.connect("localhost","homestead","secret","homestead") #连接本地homestead
 
 cursor = db.cursor()
 
